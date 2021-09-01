@@ -1,0 +1,189 @@
+body {
+    /*font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;*/
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+
+
+}
+
+footer {
+    margin: 30px;
+    color: #8f8f8f;
+    font-size: 12px;
+}
+
+h1 {
+    color: #8f8f8f;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+p, ol {
+    color: #8f8f8f;
+}
+
+/* NAVBAR */
+.navbar {
+    position: absolute;
+    width: 100%;
+    background: rgba(0,0,0, 0.2);
+}
+
+.navbar__itens {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar__itens___item {
+    padding: 25px;
+}
+
+.navbar__itens___link {
+    text-decoration: none;
+    color: #8f8f8f;
+}
+
+.navbar__itens___link:hover{
+    color: #3f6855;
+}
+
+/* HOME */
+.home {
+    background: url(../assets/banner.jfif) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.home__card {
+    background: rgba(0,0,0, 0.4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 30px;
+    padding: 30px;
+    color: #d1d1d1;
+}
+
+.home__card__titulo h1 {
+    letter-spacing: 10px;
+    font-size: 50px;
+    color: #63b18c;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+
+.home__card__titulo h2 {
+    font-size: 28px;
+    font-weight: bold;
+    font-family: sans-serif;
+    letter-spacing: 5px;
+}
+
+.home__card__button {
+    color: white;
+    background: #3f6855;
+    border-color: #3f6855;
+    font-weight: 700;
+    border-radius: 3px;
+    font-size: 14px;
+    padding: 12px;
+    margin-top: 30px;
+}
+
+.home__card__button:hover{
+    background: #1b382b;
+    border-color: #1b382b;
+    cursor: pointer;
+}
+
+/* SOBRE */
+.sobre {
+    margin: 30px;
+}
+
+/* APRESENTACAO */
+.apresentacao {
+    margin: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.apresentacao__portfolio__thumbbar img {
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+}
+
+.apresentacao__precos ol {
+    display: flex;
+}
+
+.apresentacao__precos li {
+    letter-spacing: 2px;
+    padding: 10px;
+}
+
+/* BARBEIROS */
+.barbeiros {
+    margin: 30px;
+    letter-spacing: 3px;
+    height: 100vh;
+}
+
+.barbers {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0;   
+}
+
+.barbers__barber1,
+.barbers__barber2,
+.barbers__barber3 {
+    text-align: center;
+    width: 240px;
+    height: 240px;
+}
+
+.barbers__barber1___imagem {
+    width: 100%;
+    height: 100%;
+    background: url(../assets/barber1.jpeg) no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.barbers__barber2___imagem {
+    width: 100%;
+    height: 100%;
+    background: url(../assets/barber2.jpeg) no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.barbers__barber3___imagem {
+    width: 100%;
+    height: 100%;
+    background: url(../assets/barber3.jpeg) no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+/* AGENDAMENTO */
+.agendamento {
+    margin: 30px;
+}
+
+/* CONTATO */
+.contato {
+    margin: 30px;
+}
+
+/* LOJA */
+.loja {
+    margin: 30px;
+}
